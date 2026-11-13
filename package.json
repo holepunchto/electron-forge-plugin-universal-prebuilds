@@ -1,6 +1,6 @@
 {
   "name": "electron-forge-plugin-universal-prebuilds",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Universal prebuild support for your Electron app",
   "exports": {
     "./package": "./package.json",
