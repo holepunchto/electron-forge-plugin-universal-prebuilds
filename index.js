@@ -1,8 +1,8 @@
-const fs = require('fs/promises')
-const path = require('path')
-const { default: PluginBase } = require('@electron-forge/plugin-base')
+import fs from 'fs/promises'
+import path from 'path'
+import PluginBase from '@electron-forge/plugin-base'
 
-module.exports = class UniversalPrebuilds extends PluginBase {
+export default class UniversalPrebuilds extends PluginBase {
   getHooks() {
     return {
       packageAfterCopy: [this.packageAfterCopy]
